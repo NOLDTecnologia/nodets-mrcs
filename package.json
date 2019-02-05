@@ -1,0 +1,39 @@
+{
+  "name": "nodets-mrcs",
+  "version": "0.0.1",
+  "description": "Implementation of Model-Routes-Controllers-Services with Node.JS + TypeScript + Express.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./index.ts",
+    "start": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
+    "prod": "npm run build && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOLDTecnologia/nodets-mrcs.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "TypeScript",
+    "Express"
+  ],
+  "author": "NOLD Tecnologia",
+  "license": "MIT",
+  "homepage": "https://github.com/NOLDTecnologia/nodets-mrcs#readme",
+  "bugs": {
+    "url": "https://github.com/NOLDTecnologia/nodets-mrcs/issues"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^10.12.18",
+    "nodemon": "^1.18.9",
+    "ts-node": "^8.0.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
