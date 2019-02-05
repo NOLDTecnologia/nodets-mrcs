@@ -1,8 +1,8 @@
-import { BaseRouter, CRUDController } from "..";
+import { BaseRouter } from "..";
 
 export abstract class CRUDRouter extends BaseRouter {
 
-    constructor(controller: CRUDController) {
+    constructor(controller: any) {
         super(controller);
         
         this.router
