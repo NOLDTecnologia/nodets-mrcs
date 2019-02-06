@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
-import { BaseController, CRUDService } from "..";
+import { BaseController } from "./BaseController";
+import { CRUDService } from "./CRUDService";
 
 export abstract class CRUDController extends BaseController {
     protected _CRUDService: CRUDService;

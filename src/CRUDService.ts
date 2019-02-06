@@ -1,4 +1,4 @@
-import { BaseService } from "..";
+import { BaseService } from "./BaseService";
 
 export abstract class CRUDService extends BaseService {
     constructor(model: any, scope: string | "") {

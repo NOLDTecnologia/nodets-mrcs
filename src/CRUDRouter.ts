@@ -1,4 +1,4 @@
-import { BaseRouter } from "..";
+import { BaseRouter } from "./BaseRouter";
 
 export abstract class CRUDRouter extends BaseRouter {
 
